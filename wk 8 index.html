@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic JavaScript Example</title>
+  <style>
+    #dynamicBox {
+      padding: 10px;
+      margin: 10px 0;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="mainTitle">Welcome!</h1>
+  </header>
+
+  <nav>
+    <p>This is the navigation bar.</p>
+  </nav>
+
+  <main>
+    <section>
+      <p id="content">Click the button below to change this text and styling.</p>
+      <button onclick="changeContent()">Change Content</button>
+    </section>
+
+    <section>
+      <button onclick="toggleBox()">Add/Remove Box</button>
+      <div id="boxContainer"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Footer content goes here.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
