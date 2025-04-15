@@ -1,0 +1,11 @@
+#header {
+  color: blue;
+  font-size: 24px;
+}
+
+.new-element {
+  background-color: lightgreen;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
